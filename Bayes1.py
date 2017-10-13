@@ -13,7 +13,7 @@ import matplotlib
 # import scipy
 # import bayespy
 
-# close all plots; clear all variables
+# close all plots
 matplotlib.pyplot.close("all")
 
 # Bayes' theorem P(A|B) = [P(B|A)P(A)]/[P(B)]
@@ -25,4 +25,4 @@ B = float(input("P(B)? "))
 PAB = float((B * A) / ((B * A) + (1 - B) * (1 - A)))
 print("Probability of A, given B: ", PAB)
 
- 
+ # end program
